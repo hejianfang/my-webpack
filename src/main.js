@@ -10,7 +10,17 @@ const baseImport = require('./js/vuex-export')
 const baseIm = {
     abc: 1,
     asd: '123456789',
-    master: true
+    dev1: true
 }
 console.log(baseImport)
 console.log(baseIm)
+const elements = () => {
+    const element = document.createElement('h3')
+    element.textContent = '123000'
+    element.addEventListener('click', _ => {
+        alert('1230')
+    })
+    return element
+}
+const htmlElement = elements()
+document.body.append(htmlElement)

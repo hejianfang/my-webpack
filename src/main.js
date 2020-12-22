@@ -10,7 +10,7 @@ const baseImport = require('./js/vuex-export')
 const baseIm = {
     abc: 1,
     asd: '123456789',
-    master: true
+    dev1: true
 }
 console.log(baseImport)
 console.log(baseIm)
